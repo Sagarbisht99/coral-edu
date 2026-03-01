@@ -1,0 +1,27 @@
+@media (max-width: 600px) {
+    .alliance-topbar .btn {
+        font-size: 12px !important;
+    }
+
+    .icon-wrap i {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .statCard {
+        padding-bottom: 0 !important;
+    }
+
+    .scholarCard {
+        padding: 15px !important;
+    }
+
+    h2.title {
+        font-size: 24px;
+    }
+
+    section.pgdm-careers.commonSection {
+        padding: 10px !important;
+    }
+}
