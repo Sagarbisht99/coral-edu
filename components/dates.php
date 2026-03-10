@@ -1,4 +1,4 @@
-<section class="helpline">
+<!-- <section class="helpline">
     <div class="dates-card">
         <div class="dates-header">
             <h3><i class="fas fa-calendar-alt"></i> Admission Timeline 2026</h3>
@@ -27,4 +27,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

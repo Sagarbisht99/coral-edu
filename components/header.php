@@ -4,150 +4,112 @@
   </iframe>
 </noscript>
 
-<header class="iibs-header">
-  <div class="container d-flex align-items-center justify-content-between py-3">
+<?php include 'site_identity.php'; ?>
 
-    <!-- Logo --> 
-    <a href="index.php" class="iibs-logo d-flex align-items-center">
-      <img src="assets/img/logo/logo.png" alt="IIBS Bangalore" class="me-2" width="150">
-    </a>
+<header class="modern-header">
+  <div class="header-top">
+    <div class="container">
+      <div class="header-contact">
+        <span class="contact-item">
+          <i class="fas fa-phone"></i>
+          <a href="tel:<?= preg_replace('/\s+/', '', $site_identity['phone']); ?>"><?= $site_identity['phone']; ?></a>
+        </span>
+        <span class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:<?= $site_identity['email']; ?>"><?= $site_identity['email']; ?></a>
+        </span>
+      </div>
+      <div class="header-social">
+        <a href="<?= $site_identity['facebook']; ?>" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="<?= $site_identity['instagram']; ?>" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="<?= $site_identity['linkedin']; ?>" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="<?= $site_identity['whatsapp']; ?>" class="social-link" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
 
-    <!-- Navigation -->
-    <nav class="iibs-nav">
-      <ul class="nav-list d-flex align-items-center mb-0">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#campus">Campus</a></li>
-        <li><a href="#programmes">Programmes</a></li>
-        <li><a href="#admissions">Admissions</a></li>
-        <li><a href="#fees-admissions">Fees</a></li>
-        <li><a href="#placement">Placement</a></li>
-        <li><a href="#faq">FAQ</a></li>
-        
-        <!-- Mobile CTA Button -->
-        <li class="d-lg-none">
-          <a data-bs-target="#popupForm" data-bs-toggle="modal" class="thm-btn apply-btn">
-            Apply Now
+  <div class="header-main">
+    <div class="container">
+      <div class="header-content">
+        <!-- Logo -->
+        <a href="index.php" class="header-logo">
+          <img src="<?= $site_identity['logo']; ?>" alt="<?= $site_identity['site_name']; ?>" class="logo-img">
+          <!-- <div class="logo-text">
+            <h3>Coral Educational</h3>
+            <span>Consultancy</span>
+          </div> -->
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="main-nav">
+          <ul class="nav-menu">
+            <li><a href="#home" class="nav-link">MBA Guidance</a></li>
+            <li><a href="#mba-guidance" class="nav-link">How We Help</a></li>
+            <li><a href="#admissions" class="nav-link">Admissions</a></li>
+            <li><a href="#placement" class="nav-link">Placement</a></li>
+            <li><a href="#about-ibi" class="nav-link">About</a></li>
+            <li><a href="#faq" class="nav-link">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <!-- Desktop CTA -->
+        <div class="header-actions">
+          <a data-bs-target="#popupForm" data-bs-toggle="modal" class="cta-button primary">
+            <i class="fas fa-rocket"></i>
+            Get Free MBA Counseling
           </a>
-        </li>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" id="mobileMenuToggle">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-header">
+      <div class="mobile-logo">
+        <img src="<?= $site_identity['logo']; ?>" alt="<?= $site_identity['site_name']; ?>" class="mobile-logo-img">
+        <span><?= $site_identity['site_name']; ?></span>
+      </div>
+      <button class="mobile-menu-close" id="mobileMenuClose">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    
+    <nav class="mobile-nav">
+      <ul class="mobile-nav-menu">
+        <li><a href="#home" class="mobile-nav-link">MBA Guidance</a></li>
+        <li><a href="#mba-guidance" class="mobile-nav-link">How We Help</a></li>
+        <li><a href="#programmes" class="mobile-nav-link">Programmes</a></li>
+        <li><a href="#admissions" class="mobile-nav-link">Admissions</a></li>
+        <li><a href="#fees-admissions" class="mobile-nav-link">Fees</a></li>
+        <li><a href="#placement" class="mobile-nav-link">Placement</a></li>
+        <li><a href="#faq" class="mobile-nav-link">FAQ</a></li>
       </ul>
+      
+      <div class="mobile-menu-footer">
+        <a data-bs-target="#popupForm" data-bs-toggle="modal" class="mobile-cta-button">
+          <i class="fas fa-rocket"></i>
+          Get Free MBA Counseling
+        </a>
+        
+        <div class="mobile-contact">
+          <div class="mobile-contact-item">
+            <i class="fas fa-phone"></i>
+            <a href="tel:<?= preg_replace('/\s+/', '', $site_identity['phone']); ?>"><?= $site_identity['phone']; ?></a>
+          </div>
+          <div class="mobile-contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:<?= $site_identity['email']; ?>"><?= $site_identity['email']; ?></a>
+          </div>
+        </div>
+      </div>
     </nav>
-
-    <!-- Desktop CTA Button -->
-    <a data-bs-target="#popupForm" data-bs-toggle="modal"
-      class="thm-btn apply-btn d-none d-lg-inline-block">
-      Apply Now
-    </a>
-
-    <!-- Hamburger Button (mobile) -->
-    <button class="navbar-toggler d-lg-none" type="button" id="iibsMenuToggle">
-      <i class="fa-solid fa-bars"></i>
-    </button>
   </div>
 </header>
-
-<style>
-/* Navigation Links Hover Effect */
-.iibs-nav .nav-list li a {
-  color: #333;
-  text-decoration: none;
-  font-weight: 500;
-  position: relative;
-  transition: color 0.3s ease;
-  padding-bottom: 2px;
-}
-
-.iibs-nav .nav-list li a::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: linear-gradient(90deg, var(--ibi-navy), var(--ibi-gold));
-  transition: width 0.3s ease;
-}
-
-.iibs-nav .nav-list li a:hover {
-  color: var(--ibi-navy);
-}
-
-.iibs-nav .nav-list li a:hover::after {
-  width: 100%;
-}
-
-/* Mobile menu - improved contrast and responsiveness */
-@media (max-width: 991px) {
-  .iibs-nav .nav-list li a::after {
-    display: none;
-  }
-
-  .iibs-nav .nav-list li a:hover {
-    background-color: rgba(30, 58, 138, 0.1);
-    color: var(--ibi-navy);
-    border-radius: 6px;
-  }
-
-  /* Mobile menu overlay */
-  .iibs-nav.active {
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  }
-
-  .iibs-nav.active .nav-list li a {
-    color: #333 !important;
-    padding: 12px 20px;
-    display: block;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-  }
-
-  .iibs-nav.active .nav-list li a:hover {
-    background-color: var(--ibi-navy);
-    color: white !important;
-  }
-
-  /* Mobile header adjustments */
-  .iibs-header .container {
-    padding: 0 1rem;
-  }
-
-  .iibs-logo img {
-    width: 120px;
-  }
-
-  .navbar-toggler {
-    border: none;
-    background: transparent;
-    color: var(--ibi-navy);
-    font-size: 1.5rem;
-    padding: 0.5rem;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-  }
-
-  .navbar-toggler:hover {
-    background-color: rgba(30, 58, 138, 0.1);
-  }
-}
-
-/* Extra small mobile devices */
-@media (max-width: 576px) {
-  .iibs-header .container {
-    padding: 0 0.75rem;
-  }
-
-  .iibs-logo img {
-    width: 100px;
-  }
-
-  .thm-btn.apply-btn {
-    font-size: 0.9rem;
-    padding: 0.5rem 1rem;
-  }
-
-  .iibs-nav.active .nav-list li a {
-    padding: 15px 20px;
-    font-size: 1rem;
-  }
-}
-</style>

@@ -12,6 +12,7 @@ Gurgaon- 122018',
     'helpdesk_icon' => 'assets/img/logo/coral-help-icon.png',
     'facebook' => 'https://www.facebook.com/p/Coral-Education-Services-100078250191295/',
     'instagram' => 'https://www.instagram.com/coraleducationservice/?hl=en',
+    'linkedin' => '#',
     'youtube' => 'https://www.youtube.com/@Coral-Education.'
 ];
 ?>

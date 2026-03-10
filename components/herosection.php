@@ -8,36 +8,34 @@
   </div>
 
   <h1 class="hero-title">
-    Upgrade Your Skills with<br>
-    <span class="hero-title-highlight">Career-Focused Professional Courses</span>
+    Find the Right MBA College<br>
+    <span class="hero-title-highlight">Build Your Future as a Leader</span>
   </h1>
 
   <p class="hero-subtitle">
-    Industry-Relevant Programs | Expert Faculty | Practical Learning Approach
+    Personalized MBA college guidance to help you grow as a future manager — even with an average entrance exam percentile
   </p>
 
   <div class="hero-badges">
     <span class="hero-badge">
-      <i class="fas fa-graduation-cap hero-badge-icon"></i> Certified Programs
+      <i class="fas fa-user-tie hero-badge-icon"></i> Leadership Development
     </span>
     <span class="hero-badge">
-      <i class="fas fa-laptop-code hero-badge-icon"></i> Skill-Based Training
+      <i class="fas fa-chart-line hero-badge-icon"></i> Career Growth
     </span>
     <span class="hero-badge">
-      <i class="fas fa-briefcase hero-badge-icon"></i> Career Support
+      <i class="fas fa-handshake hero-badge-icon"></i> Expert Guidance
     </span>
   </div>
 
   <p class="hero-description">
-    Explore a wide range of undergraduate, postgraduate, diploma, and
-    professional certification courses designed to help you build
-    practical skills and succeed in today’s competitive job market.
+    Graduates from management institutes can work across finance, marketing, operations, HR, consulting, and more — depending on specialization and interest.
   </p>
 
   <div class="hero-buttons">
     <button class="hero-apply-btn"
       data-bs-toggle="modal" data-bs-target="#popupForm">
-      Apply Now
+      Get Free MBA Counseling
     </button>
   </div>
 </div>

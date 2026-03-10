@@ -13,6 +13,7 @@
 
         <main>
             <?php include('components/herosection.php'); ?>
+            <?php include('components/mba-guidance.php'); ?>
             <?php include('components/highlights.php'); ?>
             <?php include('components/dates.php'); ?>
             <?php include('components/programs.php'); ?>
@@ -28,6 +29,7 @@
         </main>
     </div>
     <?php include('components/footer.php'); ?>
+    <?php include('components/whatsapp-button.php'); ?>
     <?php include('components/scripts.php'); ?>
 </body>
 
