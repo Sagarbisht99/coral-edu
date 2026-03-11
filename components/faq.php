@@ -53,7 +53,7 @@
             <button class="search-btn">Find</button>
           </div>
           <div class="search-info">
-            <span id="faqCount">5 questions found</span>
+            <span id="faqCount">20 questions found</span>
           </div>
         </div>
 
@@ -145,6 +145,276 @@
               <div class="accordion-body">
                 Absolutely. Our team continues to assist with reporting procedures, hostel coordination, 
                 orientation guidance, and ongoing academic support whenever required.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q6 -->
+          <div class="accordion-item" data-category="admissions">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q6">
+                <div class="faq-question">
+                  <span class="question-text">How long does the admission process take?</span>
+                  <span class="question-category">Admission Process</span>
+                </div>
+              </button>
+            </div>
+            <div id="q6" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                The admission process typically takes 2-4 weeks depending on the institution and course. 
+                We ensure timely submission of all documents and follow up regularly for faster processing.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q7 -->
+          <div class="accordion-item" data-category="admissions">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q7">
+                <div class="faq-question">
+                  <span class="question-text">What documents are required for admission?</span>
+                  <span class="question-category">Admission Process</span>
+                </div>
+              </button>
+            </div>
+            <div id="q7" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                Required documents include 10th and 12th mark sheets, graduation certificates (if applicable), 
+                ID proof, address proof, passport-size photographs, and entrance exam scorecards if applicable.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q8 -->
+          <div class="accordion-item" data-category="admissions">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q8">
+                <div class="faq-question">
+                  <span class="question-text">Can I apply to multiple colleges through Coral?</span>
+                  <span class="question-category">Admission Process</span>
+                </div>
+              </button>
+            </div>
+            <div id="q8" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                Yes, we help you apply to multiple colleges based on your preferences and eligibility. 
+                This increases your chances of securing admission in the best possible institution.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q9 -->
+          <div class="accordion-item" data-category="eligibility">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q9">
+                <div class="faq-question">
+                  <span class="question-text">Are there entrance exam requirements?</span>
+                  <span class="question-category">Eligibility</span>
+                </div>
+              </button>
+            </div>
+            <div id="q9" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                Some courses require entrance exams like JEE, NEET, CAT, MAT, or state-level tests. 
+                However, many colleges also offer direct admission based on merit or management quota.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q10 -->
+          <div class="accordion-item" data-category="eligibility">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q10">
+                <div class="faq-question">
+                  <span class="question-text">What is the minimum percentage required?</span>
+                  <span class="question-category">Eligibility</span>
+                </div>
+              </button>
+            </div>
+            <div id="q10" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                Minimum percentage varies by course and institution. Generally, 45-60% in 12th grade for undergraduate 
+                and 50-55% in graduation for postgraduate programs. We help identify suitable options based on your scores.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q11 -->
+          <div class="accordion-item" data-category="eligibility">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q11">
+                <div class="faq-question">
+                  <span class="question-text">Can gap year students apply?</span>
+                  <span class="question-category">Eligibility</span>
+                </div>
+              </button>
+            </div>
+            <div id="q11" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                Yes, gap year students can apply. Most colleges accept students with reasonable gap years, 
+                provided they can justify the period. We guide you on presenting your case effectively.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q12 -->
+          <div class="accordion-item" data-category="courses">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q12">
+                <div class="faq-question">
+                  <span class="question-text">Do you provide admission for NRI/Foreign students?</span>
+                  <span class="question-category">Courses & Colleges</span>
+                </div>
+              </button>
+            </div>
+            <div id="q12" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                Yes, we assist NRI and foreign students with admission under management/NRI quota. 
+                We help with documentation, visa requirements, and special admission procedures.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q13 -->
+          <div class="accordion-item" data-category="courses">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q13">
+                <div class="faq-question">
+                  <span class="question-text">Which locations do you cover for college admissions?</span>
+                  <span class="question-category">Courses & Colleges</span>
+                </div>
+              </button>
+            </div>
+            <div id="q13" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                We cover colleges across major cities including Delhi NCR, Mumbai, Pune, Bangalore, Hyderabad, 
+                Chennai, and other educational hubs. We have partnerships with 500+ colleges nationwide.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q14 -->
+          <div class="accordion-item" data-category="courses">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q14">
+                <div class="faq-question">
+                  <span class="question-text">How do you help in choosing the right college?</span>
+                  <span class="question-category">Courses & Colleges</span>
+                </div>
+              </button>
+            </div>
+            <div id="q14" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                We consider factors like your academic profile, career goals, budget, location preference, 
+                college rankings, placement records, and infrastructure to recommend the most suitable colleges.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q15 -->
+          <div class="accordion-item" data-category="fees">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q15">
+                <div class="faq-question">
+                  <span class="question-text">What is the fee structure for different courses?</span>
+                  <span class="question-category">Fees & Loans</span>
+                </div>
+              </button>
+            </div>
+            <div id="q15" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                Fee structures vary widely - from ₹50,000 to ₹20 lakhs annually depending on the course and college. 
+                We provide detailed fee breakdowns and help you find options within your budget.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q16 -->
+          <div class="accordion-item" data-category="fees">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q16">
+                <div class="faq-question">
+                  <span class="question-text">Are there installment payment options?</span>
+                  <span class="question-category">Fees & Loans</span>
+                </div>
+              </button>
+            </div>
+            <div id="q16" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                Most colleges offer installment payment options - usually semester-wise or annual payments. 
+                We negotiate flexible payment plans and help you understand the complete fee structure.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q17 -->
+          <div class="accordion-item" data-category="fees">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q17">
+                <div class="faq-question">
+                  <span class="question-text">What types of scholarships are available?</span>
+                  <span class="question-category">Fees & Loans</span>
+                </div>
+              </button>
+            </div>
+            <div id="q17" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                Scholarships include merit-based, need-based, sports quota, minority scholarships, 
+                and special category benefits. We help identify all eligible scholarship opportunities.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q18 -->
+          <div class="accordion-item" data-category="support">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q18">
+                <div class="faq-question">
+                  <span class="question-text">Do you provide hostel accommodation assistance?</span>
+                  <span class="question-category">Student Support</span>
+                </div>
+              </button>
+            </div>
+            <div id="q18" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                Yes, we assist with hostel applications, help find safe and affordable accommodation, 
+                and coordinate with college authorities for smooth hostel allocation.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q19 -->
+          <div class="accordion-item" data-category="support">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q19">
+                <div class="faq-question">
+                  <span class="question-text">How can I track my admission status?</span>
+                  <span class="question-category">Student Support</span>
+                </div>
+              </button>
+            </div>
+            <div id="q19" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                We provide regular updates via phone, email, and WhatsApp. You'll also have access to 
+                our student portal to track application status, document submission, and admission progress.
+              </div>
+            </div>
+          </div>
+
+          <!-- Q20 -->
+          <div class="accordion-item" data-category="support">
+            <div class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#q20">
+                <div class="faq-question">
+                  <span class="question-text">What if I face issues after joining the college?</span>
+                  <span class="question-category">Student Support</span>
+                </div>
+              </button>
+            </div>
+            <div id="q20" class="accordion-collapse collapse" data-bs-parent="#ibiFAQ">
+              <div class="accordion-body">
+                Our support continues throughout your course. We help with academic issues, 
+                coordinate with college authorities, and provide guidance whenever needed.
               </div>
             </div>
           </div>

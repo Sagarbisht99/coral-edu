@@ -9,12 +9,17 @@
       </p>
     </div>
 
+    <!-- Header Image -->
+    <div class="scholarship-header-image">
+      <img src="https://i.pinimg.com/736x/01/34/a5/0134a51bd36f0d5e5dc72d6c73df0913.jpg" alt="Scholarship and Education Support" class="header-banner">
+    </div>
+
     <div class="scholarship-grid">
 
       <!-- Academic Based Assistance -->
       <div class="scholarship-card primary-card">
         <div class="card-header">
-          <div class="card-icon">
+          <div class="card-image">
             <i class="fas fa-user-graduate"></i>
           </div>
           <div class="card-title">
@@ -81,7 +86,7 @@
       <!-- Loan & Entrance Guidance -->
       <div class="scholarship-card secondary-card">
         <div class="card-header">
-          <div class="card-icon">
+          <div class="card-image">
             <i class="fas fa-university"></i>
           </div>
           <div class="card-title">
@@ -151,9 +156,9 @@
 
 /* Mobile First Approach - Base Styles */
 .ibi-fees-scholarships {
-  background: var(--ibi-slate);
-  padding: 3rem 0;
-  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 5rem 0;
+  font-family: var(--font-body);
 }
 
 .section-header {
@@ -174,6 +179,26 @@
   max-width: 600px;
 }
 
+/* Header Image */
+.scholarship-header-image {
+  width: 100%;
+  margin: 2rem 0 3rem 0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.header-banner {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.header-banner:hover {
+  transform: scale(1.02);
+}
+
 /* Scholarship Grid - Mobile First */
 .scholarship-grid {
   display: grid;
@@ -183,18 +208,26 @@
 }
 
 .scholarship-card {
-  background: var(--ibi-white);
-  border-radius: 12px;
-  padding: 1.5rem;
-  box-shadow: 0 10px 30px rgba(0, 35, 71, 0.08);
-  border-top: 5px solid var(--ibi-navy);
+  background: #f8f9fa;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border: none;
   display: flex;
   flex-direction: column;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.primary-card {
+  background: #f8f9fa;
+  border: none;
 }
 
 .secondary-card {
-  border-top-color: var(--ibi-gold);
+  background: #f8f9fa;
+  border: none;
 }
 
 /* Card Header - Mobile Responsive */
@@ -206,36 +239,51 @@
   text-align: left;
 }
 
-.card-icon {
-  width: 50px;
-  height: 50px;
-  background: var(--ibi-navy);
-  color: white;
+.card-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: var(--color-accent-domestic);
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 10px;
-  font-size: 1.2rem;
-  flex-shrink: 0;
+  box-shadow: 0 4px 12px rgba(14, 45, 107, 0.2);
 }
 
-.secondary-card .card-icon {
-  background: var(--ibi-gold);
+.card-image i {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.secondary-card .card-image {
+  background: var(--color-primary);
 }
 
 .card-title h3 {
   margin: 0;
-  color: var(--ibi-navy);
+  color: #1e3a8a;
   font-size: 1.1rem;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 1.3;
+  font-family: var(--font-subheading-highlight);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.secondary-card .card-title h3 {
+  color: #1e3a8a;
 }
 
 .card-subtitle {
-  margin: 0.5rem 0 0 0;
-  font-size: 0.85rem;
-  color: #666;
+  margin: 0.25rem 0 0 0;
+  font-size: 0.8rem;
+  color: #6c757d;
   line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
 }
 
 /* Benefits List - Mobile */
@@ -248,29 +296,50 @@
 .benefits-list li {
   display: flex;
   align-items: flex-start;
-  gap: 0.75rem;
+  gap: 1rem;
   margin-bottom: 1rem;
-  padding: 0.75rem;
-  background: rgba(30, 58, 138, 0.03);
-  border-radius: 8px;
-  border-left: 3px solid var(--ibi-navy);
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+  border: none;
+  backdrop-filter: none;
+  transition: none;
+}
+
+.benefits-list li:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.secondary-card .benefits-list li {
+  border-left-color: var(--color-primary);
 }
 
 .benefits-list li i {
-  color: var(--ibi-navy);
-  font-size: 1rem;
-  margin-top: 0.2rem;
+  color: var(--color-primary);
+  font-size: 1.1rem;
+  margin-top: 0.1rem;
   flex-shrink: 0;
 }
 
+.secondary-card .benefits-list li i {
+  color: var(--color-primary);
+}
+
 .benefits-list li h5 {
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.3;
+  color: #000000;
+  font-weight: 700;
+  margin: 0 0 4px;
 }
 
 .benefits-list li p {
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   line-height: 1.4;
+  color: #000000;
+  font-weight: 500;
+  margin: 0;
 }
 
 /* Exam Scores - Mobile */
@@ -282,18 +351,26 @@
 }
 
 .score-card {
-  background: rgba(245, 158, 11, 0.08);
-  padding: 1rem;
-  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 1.2rem;
+  border-radius: 12px;
   text-align: center;
-  border: 1px solid rgba(245, 158, 11, 0.2);
+  border: 2px solid var(--color-primary);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.score-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 128, 0, 0.2);
 }
 
 .score-value {
-  font-size: 1.2rem;
-  font-weight: 700;
-  color: var(--ibi-gold);
-  margin-bottom: 0.25rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 0.5rem;
+  font-family: var(--font-heading);
 }
 
 .score-label {
@@ -312,13 +389,21 @@
 }
 
 .exam-badge {
-  background: rgba(30, 58, 138, 0.08);
-  color: var(--ibi-navy);
-  padding: 0.4rem 0.8rem;
+  background: rgba(255, 255, 255, 0.8);
+  color: var(--color-accent-domestic);
+  padding: 0.5rem 1rem;
   border-radius: 20px;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   font-weight: 600;
-  border: 1px solid rgba(30, 58, 138, 0.15);
+  border: 1px solid var(--color-accent-domestic);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.exam-badge:hover {
+  background: var(--color-accent-domestic);
+  color: white;
+  transform: translateY(-2px);
 }
 
 /* Eligibility Tags */
@@ -330,13 +415,21 @@
 }
 
 .eligibility-tag {
-  background: rgba(245, 158, 11, 0.1);
-  color: var(--ibi-gold);
+  background: var(--color-primary);
+  color: white;
   padding: 0.4rem 0.8rem;
   border-radius: 20px;
   font-size: 0.75rem;
   font-weight: 600;
-  border: 1px solid rgba(245, 158, 11, 0.2);
+  border: none;
+  backdrop-filter: none;
+  transition: none;
+}
+
+.eligibility-tag:hover {
+  background: var(--color-primary);
+  color: white;
+  transform: none;
 }
 
 /* Card Footer */
@@ -347,9 +440,9 @@
 
 .btn-card {
   display: inline-block;
-  background: linear-gradient(135deg, var(--ibi-navy), #2563eb);
+  background: var(--color-accent-domestic);
   color: white;
-  padding: 0.75rem 1.5rem;
+  padding: 0.8rem 1.5rem;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 600;
@@ -357,12 +450,26 @@
   text-align: center;
   transition: all 0.3s ease;
   width: 100%;
+  box-shadow: none;
+  font-family: var(--font-body);
+  border: none;
 }
 
 .btn-card:hover {
-  background: linear-gradient(135deg, var(--ibi-gold), #ea580c);
-  transform: translateY(-2px);
+  background: var(--color-accent-domestic);
+  transform: none;
+  box-shadow: none;
   color: white;
+}
+
+.secondary-card .btn-card {
+  background: var(--color-accent-domestic);
+  box-shadow: none;
+}
+
+.secondary-card .btn-card:hover {
+  background: var(--color-accent-domestic);
+  box-shadow: none;
 }
 
 /* Tablet Responsive - 576px and up */
@@ -377,6 +484,10 @@
   
   .section-subtitle {
     font-size: 1rem;
+  }
+  
+  .header-banner {
+    height: 350px;
   }
   
   .scholarship-grid {
@@ -482,6 +593,15 @@
   
   .section-title {
     font-size: 1.6rem;
+  }
+  
+  .scholarship-header-image {
+    margin: 1.5rem 0;
+    border-radius: 12px;
+  }
+  
+  .header-banner {
+    height: 250px;
   }
   
   .scholarship-grid {

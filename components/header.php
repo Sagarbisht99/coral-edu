@@ -7,7 +7,7 @@
 <?php include 'site_identity.php'; ?>
 
 <header class="modern-header">
-  <div class="header-top">
+  <!-- <div class="header-top">
     <div class="container">
       <div class="header-contact">
         <span class="contact-item">
@@ -23,10 +23,9 @@
         <a href="<?= $site_identity['facebook']; ?>" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
         <a href="<?= $site_identity['instagram']; ?>" class="social-link" target="_blank"><i class="fab fa-instagram"></i></a>
         <a href="<?= $site_identity['linkedin']; ?>" class="social-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-        <a href="<?= $site_identity['whatsapp']; ?>" class="social-link" target="_blank"><i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <div class="header-main">
     <div class="container">
@@ -43,12 +42,12 @@
         <!-- Desktop Navigation -->
         <nav class="main-nav">
           <ul class="nav-menu">
-            <li><a href="#home" class="nav-link">MBA Guidance</a></li>
+            <!-- <li><a href="#home" class="nav-link">MBA Guidance</a></li>
             <li><a href="#mba-guidance" class="nav-link">How We Help</a></li>
             <li><a href="#admissions" class="nav-link">Admissions</a></li>
             <li><a href="#placement" class="nav-link">Placement</a></li>
             <li><a href="#about-ibi" class="nav-link">About</a></li>
-            <li><a href="#faq" class="nav-link">FAQ</a></li>
+            <li><a href="#faq" class="nav-link">FAQ</a></li> -->
           </ul>
         </nav>
 

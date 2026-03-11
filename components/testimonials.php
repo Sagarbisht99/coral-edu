@@ -77,6 +77,8 @@
   position: relative;
   overflow: hidden;
   padding-top: 60px;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 /* ============================= */

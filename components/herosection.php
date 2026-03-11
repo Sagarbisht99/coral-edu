@@ -1,44 +1,44 @@
 <section id="home" class="hero-section">
   <div class="hero-container">
     <div class="hero-row">
-<div class="hero-content-left">
-  <div class="admissions-badge">
-    <span class="admissions-badge-dot"></span>
-    <span class="admissions-badge-text">Admissions Open 2025–27 | Apply Now</span>
-  </div>
+      <div class="hero-content-left">
+        <div class="admissions-badge">
+          <span class="admissions-badge-dot"></span>
+          <span class="admissions-badge-text">Admissions Open 2025–27 | Apply Now</span>
+        </div>
 
-  <h1 class="hero-title">
-    Find the Right MBA College<br>
-    <span class="hero-title-highlight">Build Your Future as a Leader</span>
-  </h1>
+        <h1 class="hero-title">
+          Find the Right MBA College<br>
+          <span class="hero-title-highlight">Build Your Future as a Leader</span>
+        </h1>
 
-  <p class="hero-subtitle">
-    Personalized MBA college guidance to help you grow as a future manager — even with an average entrance exam percentile
-  </p>
+        <p class="hero-subtitle">
+          Personalized MBA college guidance to help you grow as a future manager — even with an average entrance exam percentile
+        </p>
 
-  <div class="hero-badges">
-    <span class="hero-badge">
-      <i class="fas fa-user-tie hero-badge-icon"></i> Leadership Development
-    </span>
-    <span class="hero-badge">
-      <i class="fas fa-chart-line hero-badge-icon"></i> Career Growth
-    </span>
-    <span class="hero-badge">
-      <i class="fas fa-handshake hero-badge-icon"></i> Expert Guidance
-    </span>
-  </div>
+        <div class="hero-badges">
+          <span class="hero-badge">
+            <i class="fas fa-user-tie hero-badge-icon"></i> Leadership Development
+          </span>
+          <span class="hero-badge">
+            <i class="fas fa-chart-line hero-badge-icon"></i> Career Growth
+          </span>
+          <span class="hero-badge">
+            <i class="fas fa-handshake hero-badge-icon"></i> Expert Guidance
+          </span>
+        </div>
 
-  <p class="hero-description">
-    Graduates from management institutes can work across finance, marketing, operations, HR, consulting, and more — depending on specialization and interest.
-  </p>
+        <p class="hero-description">
+          Graduates from management institutes can work across finance, marketing, operations, HR, consulting, and more — depending on specialization and interest.
+        </p>
 
-  <div class="hero-buttons">
-    <button class="hero-apply-btn"
-      data-bs-toggle="modal" data-bs-target="#popupForm">
-      Get Free MBA Counseling
-    </button>
-  </div>
-</div>
+        <div class="hero-buttons">
+          <button class="hero-apply-btn"
+            data-bs-toggle="modal" data-bs-target="#popupForm">
+            Get Free MBA Counseling
+          </button>
+        </div>
+      </div>
 
       <div class="hero-content-right">
         <div class="hero-enquiry-card">
@@ -80,8 +80,15 @@
               </div>
 
               <div class="form-group">
-                <input type="text" class="enquiry-input"
-                  placeholder="Specialization">
+                <select name="specialization" class="enquiry-input" required>
+                  <option value="" disabled selected>Select MBA/PGDM Specialization</option>
+                  <option value="MBA in Human Resources (HR)">MBA in Human Resources (HR)</option>
+                  <option value="MBA in Finance">MBA in Finance</option>
+                  <option value="MBA in Marketing">MBA in Marketing</option>
+                  <option value="MBA in Operations Management">MBA in Operations Management</option>
+                  <option value="MBA in IT and Systems">MBA in IT and Systems</option>
+                  <option value="MBA in Business Analytics">MBA in Business Analytics</option>
+                </select>
               </div>
 
               <button type="submit" class="enquiry-submit-btn">
@@ -158,25 +165,15 @@
             <div class="col-12">
               <div class="form-group mb-1">
                 <label class="input_title">Select Specialization</label>
-                <input list="specializations" name="specialization" id="input_specialization" class="form-control"
-                  placeholder="Select or type specialization">
-                <datalist id="specializations">
-                  <optgroup label="MBA Specializations">
-                    <option value="MBA in IT and Systems">
-                    <option value="MBA in Logistics & Supply Chain">
-                    <option value="MBA in International Business">
-                    <option value="MBA in Sales and Marketing">
-                    <option value="MBA in Finance">
-                    <option value="MBA in Human Resources (HR)">
-                    <option value="MBA in Operations Management">
-                  </optgroup>
-                  <optgroup label="PGDM Specializations">
-                    <option value="PGDM in Marketing Management">
-                    <option value="PGDM in Finance">
-                    <option value="PGDM in Business Analytics">
-                    <option value="PGDM in Human Resource Management">
-                  </optgroup>
-                </datalist>
+                <select name="specialization" id="input_specialization" class="form-control" required>
+                  <option hidden>Select Specialization</option>
+                  <option value="MBA in Human Resources (HR)">MBA in Human Resources (HR)</option>
+                  <option value="MBA in Finance">MBA in Finance</option>
+                  <option value="MBA in Marketing">MBA in Marketing</option>
+                  <option value="MBA in Operations Management">MBA in Operations Management</option>
+                  <option value="MBA in IT and Systems">MBA in IT and Systems</option>
+                  <option value="MBA in Business Analytics">MBA in Business Analytics</option>
+                </select>
               </div>
             </div>
 

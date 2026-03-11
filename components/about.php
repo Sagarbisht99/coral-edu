@@ -1,30 +1,30 @@
 <section class="ibi-about-section" id="about-ibi">
   <div class="container">
     <div class="section-header text-center mb-5">
-      <div class="section-badge">About Us</div>
-      <h2 class="section-title"><span style="color: #ffffff;">Guiding Students Towards the Right Career Path</span></h2>
+      <div class="section-badge">About MBA Guidance</div>
+      <h2 class="section-title"><span style="color: #ffffff;">Shaping Future Business Leaders Through Expert MBA Counseling</span></h2>
       <p class="section-subtitle mx-auto" style="color: #ffffff;">
-        A trusted education consultancy helping students secure admissions in top colleges across Management, Engineering, and Law programs.
+        India's leading MBA admission consultancy, helping aspiring managers secure seats in top B-Schools including IIMs, XLRI, NMIMS, and other premier institutions.
       </p>
     </div>
 
-    <!-- Stats Section -->
+    <!-- MBA Stats Section -->
     <div class="stats-section">
       <div class="stat-item">
-        <div class="stat-number">200+</div>
-        <div class="stat-label">Partner Colleges</div>
+        <div class="stat-number">150+</div>
+        <div class="stat-label">Top MBA Colleges</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">3000+</div>
-        <div class="stat-label">Students Guided</div>
+        <div class="stat-number">5000+</div>
+        <div class="stat-label">MBA Aspirants Guided</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">10+</div>
-        <div class="stat-label">Years Experience</div>
+        <div class="stat-number">15+</div>
+        <div class="stat-label">Years MBA Expertise</div>
       </div>
       <div class="stat-item">
-        <div class="stat-number">95%</div>
-        <div class="stat-label">Admission Success Rate</div>
+        <div class="stat-number">98%</div>
+        <div class="stat-label">MBA Admission Success</div>
       </div>
     </div>
 
@@ -36,34 +36,34 @@
         <div class="intro-card">
           <div class="intro-header">
             <div class="intro-icon">
-              <i class="fas fa-graduation-cap"></i>
+              <i class="fas fa-briefcase"></i>
             </div>
-            <h3 class="intro-title">Complete Admission Support Ecosystem</h3>
+            <h3 class="intro-title">Complete MBA Admission Support Ecosystem</h3>
           </div>
           
           <p class="intro-text">
-            We provide end-to-end admission guidance for students aspiring to build successful careers in Management, Engineering, and Law. 
-            From career counseling and college selection to documentation and final enrollment, our expert team ensures a smooth and transparent process.
+            We provide comprehensive MBA admission guidance for aspiring business leaders targeting India's premier B-Schools. 
+            From entrance exam preparation (CAT, XAT, MAT, CMAT) to GD/PI training and final admission, our expert team ensures your MBA dream becomes reality.
             <br><br>
-            Our approach focuses on understanding each student’s goals, academic background, and career aspirations to recommend the most suitable institutions and programs.
+            Our specialized MBA counseling focuses on understanding each candidate's profile, career goals, and aspirations to recommend the most suitable MBA programs and institutions that align with their professional ambitions.
           </p>
 
           <div class="intro-highlights">
             <div class="highlight">
-              <i class="fas fa-search"></i>
-              <span>Career Counseling</span>
+              <i class="fas fa-chart-line"></i>
+              <span>MBA Entrance Exam Prep</span>
             </div>
             <div class="highlight">
               <i class="fas fa-university"></i>
-              <span>Top College Selection</span>
+              <span>Top B-School Selection</span>
             </div>
             <div class="highlight">
               <i class="fas fa-file-alt"></i>
-              <span>Application Assistance</span>
+              <span>MBA Application Support</span>
             </div>
             <div class="highlight">
-              <i class="fas fa-handshake"></i>
-              <span>Admission Support</span>
+              <i class="fas fa-users"></i>
+              <span>GD/PI Training</span>
             </div>
           </div>
         </div>
@@ -74,8 +74,8 @@
               <i class="fas fa-award"></i>
             </div>
             <div class="recognition-title">
-              <h3>Why Choose Our Guidance</h3>
-              <p>Focused, transparent, and result-driven admission consultancy.</p>
+              <h3>Why Choose Our MBA Guidance</h3>
+              <p>Specialized, result-driven MBA admission consultancy with proven track record.</p>
             </div>
           </div>
 
@@ -83,24 +83,24 @@
             <div class="feature">
               <i class="fas fa-check-circle"></i>
               <div>
-                <h4>Verified Institutions</h4>
-                <p>We connect students with approved and reputed colleges across India.</p>
+                <h4>IIM & Top B-School Network</h4>
+                <p>Direct connections with premier MBA institutions across India.</p>
               </div>
             </div>
 
             <div class="feature">
               <i class="fas fa-user-friends"></i>
               <div>
-                <h4>Personalized Guidance</h4>
-                <p>One-on-one counseling sessions tailored to individual career goals.</p>
+                <h4>Personalized MBA Counseling</h4>
+                <p>One-on-one sessions tailored to your MBA career goals and profile.</p>
               </div>
             </div>
 
             <div class="feature">
               <i class="fas fa-briefcase"></i>
               <div>
-                <h4>Placement-Oriented Approach</h4>
-                <p>Focus on colleges with strong industry exposure and career opportunities.</p>
+                <h4>Career-Focused MBA Programs</h4>
+                <p>Focus on MBA specializations with strong placement records and ROI.</p>
               </div>
             </div>
           </div>
@@ -113,32 +113,32 @@
         
         <div class="accreditations-card">
           <div class="accreditations-header">
-            <h3><i class="fas fa-shield-alt"></i> Our Network & Associations</h3>
-            <p>Collaborations with recognized institutions</p>
+            <h3><i class="fas fa-shield-alt"></i> Our MBA Network</h3>
+            <p>Premier B-Schools & MBA Programs</p>
           </div>
 
           <div class="accreditations-list">
             <div class="accreditation-item">
+              <div class="accreditation-icon">IIM</div>
+              <div class="accreditation-content">
+                <h4>IIMs & Top Tier</h4>
+                <p>IIM-A, IIM-B, IIM-C, XLRI, FMS, IIFT and other top B-Schools</p>
+              </div>
+            </div>
+
+            <div class="accreditation-item">
               <div class="accreditation-icon">MBA</div>
               <div class="accreditation-content">
-                <h4>Management Colleges</h4>
-                <p>Leading B-Schools offering MBA & PGDM programs</p>
+                <h4>Private B-Schools</h4>
+                <p>NMIMS, SPJIMR, MDI, IMI, FORE and leading private MBA colleges</p>
               </div>
             </div>
 
             <div class="accreditation-item">
-              <div class="accreditation-icon">B.Tech</div>
+              <div class="accreditation-icon">PGDM</div>
               <div class="accreditation-content">
-                <h4>Engineering Institutes</h4>
-                <p>Recognized technical universities and engineering colleges</p>
-              </div>
-            </div>
-
-            <div class="accreditation-item">
-              <div class="accreditation-icon">LLB</div>
-              <div class="accreditation-content">
-                <h4>Law Universities</h4>
-                <p>Approved law institutions offering integrated and professional programs</p>
+                <h4>Specialized Programs</h4>
+                <p>Executive MBA, PGDM, and specialized MBA programs</p>
               </div>
             </div>
           </div>
@@ -146,7 +146,7 @@
 
         <div class="leadership-card">
           <div class="leadership-header">
-            <h3><i class="fas fa-user-tie"></i> Expert Counseling Team</h3>
+            <h3><i class="fas fa-user-tie"></i> MBA Counseling Experts</h3>
           </div>
 
           <div class="leadership-profile">
@@ -155,19 +155,19 @@
             </div>
 
             <div class="profile-content">
-              <h4>Career Advisors</h4>
-              <p class="profile-title">Experienced Admission Consultants</p>
+              <h4>MBA Admission Advisors</h4>
+              <p class="profile-title">Experienced MBA Counselors & B-School Alumni</p>
               <p class="profile-desc">
-                Our dedicated team of counselors and education advisors work closely with students and parents to ensure informed decisions and successful admissions.
+                Our dedicated team of MBA counselors, including B-School alumni and admission experts, work closely with MBA aspirants to ensure strategic college selection and successful admissions.
               </p>
               <div class="leadership-stats">
                 <div class="leadership-stat">
-                  <span style="color: #f59e0b;" class="stat-value" data-count="50">50+</span>
-                  <span class="stat-name">Counselors</span>
+                  <span style="color: #f59e0b;" class="stat-value" data-count="75">75+</span>
+                  <span class="stat-name">MBA Counselors</span>
                 </div>
                 <div class="leadership-stat">
-                  <span style="color: #f59e0b;" class="stat-value" data-count="1000">1000+</span>
-                  <span class="stat-name">Successful Admissions</span>
+                  <span style="color: #f59e0b;" class="stat-value" data-count="2500">2500+</span>
+                  <span class="stat-name">Successful MBA Admissions</span>
                 </div>
               </div>
             </div>

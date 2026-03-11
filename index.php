@@ -16,20 +16,24 @@
             <?php include('components/mba-guidance.php'); ?>
             <?php include('components/highlights.php'); ?>
             <?php include('components/dates.php'); ?>
-            <?php include('components/programs.php'); ?>
             <?php include('components/about.php'); ?>
-            <?php include('components/stats.php'); ?>
+            <?php include('components/programs.php'); ?>
+            <?php include('components/college-galleries.php'); ?>
+            <?php include('components/cta.php'); ?>
+            <?php include('components/stats-clean.php'); ?>
+            <?php include('components/cta.php'); ?>
             <?php include('components/fees.php'); ?>
             <?php include('components/placements.php'); ?>
             <?php include('components/campuslife.php'); ?>
+            <?php include('components/cta.php'); ?>
             <?php include('components/feesandscholarships.php'); ?>
+            <?php include('components/programoverview.php'); ?>
             <?php include('components/admissionsteps.php'); ?>
             <?php include('components/testimonials.php'); ?>
             <?php include('components/faq.php'); ?>
         </main>
     </div>
     <?php include('components/footer.php'); ?>
-    <?php include('components/whatsapp-button.php'); ?>
     <?php include('components/scripts.php'); ?>
 </body>
 
